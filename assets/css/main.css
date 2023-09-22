@@ -1849,9 +1849,11 @@ input, select, textarea {
 	.image {
 		border: 0;
 		position: relative;
+		box-shadow: none;
+		background-color: transparent;
 	}
 
-		.image:before {
+		/* .image:before {
 			background: url("images/overlay.png");
 			content: '';
 			height: 100%;
@@ -1859,7 +1861,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}
+		} */
 
 		.image.fit {
 			display: block;
@@ -1867,12 +1869,15 @@ input, select, textarea {
 			bottom: 0;
 			left: 0;
 			right: 0;
+			box-shadow: inherit;
+			background-color: inherit;
 		}
 
 			.image.fit img {
 				display: block;
 				width: 100%;
-				background-color: transparent;
+				box-shadow: inherit;
+				background-color: inherit;
 			}
 
 		.image.featured {
