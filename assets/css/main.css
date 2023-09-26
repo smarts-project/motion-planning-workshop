@@ -2132,6 +2132,10 @@ input, select, textarea {
 				color: #fff;
 			}
 
+			table.default tr:hover {
+				background-color: #ddd;
+			}
+
 /* Button */
 
 	input[type="button"],
