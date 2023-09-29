@@ -2225,6 +2225,10 @@ input, select, textarea {
 			padding: 0;
 		}
 
+			.wrapper.style1.match_style4 {
+				padding: 4em;
+			}
+
 		.wrapper.style2 {
 			background-color: #479289;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
@@ -2829,6 +2833,10 @@ input, select, textarea {
 					padding: 0 2.5em;
 				}
 
+					.wrapper.style1.match_style4 {
+						padding: 2.5em;
+					}
+
 				.wrapper.style2 {
 					background-size: 15em;
 				}
@@ -3281,6 +3289,11 @@ input, select, textarea {
 				.wrapper.style1 {
 					padding: 0 1.5em;
 				}
+
+					.wrapper.wrapper.style1.match_style4 {
+						background-size: 10em;
+						padding: 1.5em 1.5em 3em 1.5em;
+					}
 
 				.wrapper.style2 {
 					background-size: 10em;
